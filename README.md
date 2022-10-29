@@ -2,13 +2,6 @@
 ## 定义
 > 设计模式是在特定环境下人们解决某类重复出现问题的一套成功或有效的解决方案。
 
-## 种类与个数
-1. 创建型模式(6个)：如何创建对象；
-2. 结构型模式(7个)：如何实现类或对象的组合；
-3. 行为型模式(11个)：类或对象怎样交互以及怎样分配职责。
-
-GoF的23种 + “简单工厂模式” = 24种。
-
 ## 设计原则(7个):SOLID+合成复用原则+迪米特法则
 代码质量好坏评判标准:
 * 可维护性(maintainability)
@@ -32,6 +25,16 @@ GoF的23种 + “简单工厂模式” = 24种。
 |合成复用原则(Composite Reuse Principle, CRP) |尽量使用对象组合，而不是继承来达到复用的目的 |
 |迪米特法则(Law of Demeter, LoD) | 一个软件实体应当尽可能少地与其他实体发生相互作用 |
 
+## 种类与个数
+GoF的23种 + “简单工厂模式” = 24种。
+### 创建型模式(6个): 如何创建对象
+* [单例模式](https://github.com/SnDragon/go-design-pattern/blob/master/creator/singleton)
+
+### 结构型模式(7个): 如何实现类或对象的组合
+
+
+### 行为型模式(11个): 类或对象怎样交互以及怎样分配职责
+
 
 
 ## 学习资料
@@ -42,6 +45,7 @@ GoF的23种 + “简单工厂模式” = 24种。
 ### 视频
 * [Go设计模式入门到实践](https://www.imooc.com/learn/1226)
 * [模式宗师养成宝典之Java版](https://www.imooc.com/course/programdetail/pid/18)
+* [Easy搞定Golang设计模式(刘丹冰)](https://space.bilibili.com/373073810/channel/collectiondetail?sid=734579)
 
 ### 书籍
 * [HeadFirst设计模式](https://awesome-programming-books.github.io/design-pattern/HeadFirst%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.pdf)
