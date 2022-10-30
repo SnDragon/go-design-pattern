@@ -29,6 +29,8 @@
 GoF的23种 + “简单工厂模式” = 24种。
 ### 创建型模式(6个): 如何创建对象
 * [单例模式](https://github.com/SnDragon/go-design-pattern/blob/master/creator/singleton)
+* [简单工厂模式](https://github.com/SnDragon/go-design-pattern/blob/master/creator/simple_factory)
+
 
 ### 结构型模式(7个): 如何实现类或对象的组合
 
